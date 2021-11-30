@@ -816,7 +816,7 @@ The most likely cause for this is either:
 
 - You've misspelled the package's name.
 - Or the package really doesn't exist on ELPA, MELPA, or EmacsMirror and you'll
-  need to [[*Installing packages from external sources][specify a recipe for it]].
+  need to [[#installing-packages-from-external-sources][specify a recipe for it]].
 
 ~package!~ will return non-nil if the package is cleared for install and hasn't
 been disabled elsewhere. Use this fact to chain package dependencies together.
